@@ -46,12 +46,7 @@ public class UserRestControl {
 		userService.deleteUser(userId);
 	} 
 
-	// Modifier User 
-	// http://localhost:????/timesheet-devops/modify-user 
-	@PutMapping("/modify-user") 
-	public User updateUser(@RequestBody User user) {
-		return userService.updateUser(user);
-	}
+
 	 
 } 
  
